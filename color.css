@@ -1,0 +1,65 @@
+body{
+	background-color :#272727;
+	text-transform: uppercase;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+h1{
+	color: white;
+	text-align: center;
+	font-weight: normal;
+	margin: 0 auto;
+	background:rgb(141, 162, 215);
+}
+.square{
+   width: 30%;
+   background-color: green;
+   padding-bottom: 30%;
+   float: left;
+   margin: 1.66%;
+}
+#container{
+	margin: 15px auto;
+	width: 30%;
+
+}
+/*div{
+	color: white;
+    text-align:center;yaha text align kyu kam nahi kar raha hai??
+}*/
+#stalker{
+	text-align: center;
+	background-color: white;
+	margin: 0px auto;
+	margin-bottom: 0px;
+}
+.selected{
+	 background:rgb(141, 162, 215);
+
+}
+button{
+	border: none;
+	text-transform: uppercase;
+	margin: 0px auto;
+	background: none;
+	font-weight: 700;/*bolded button look better*/
+	letter-spacing: 1px;/*this is new*/
+	font-size: inherit;/*this is new*/
+    transition: all  0.3s;/*this is new*/
+}
+.square{
+	border-radius: 20%;
+	transition: all 0.3s;
+}
+#colorDisplay{
+ font-size: 200%;
+}
+#messageDisplay{
+	display: inline-block;
+	width:15%;
+}
+/*this is new style i learnt hover effect*/
+button:hover{
+	color: white;
+	background: rgb(141, 162, 215);
+}
